@@ -1,0 +1,2 @@
+# dictionar
+ok
