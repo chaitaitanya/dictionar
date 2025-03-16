@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dictionary.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav id="nav-box">
+        <div id="word-box">
+            <input type="text" id="input">
+            <button id="button">search</button>
+
+        </div>
+        <div id="today-word-box">
+            <button id="today-word-btn">WORD OF DAY</button>
+        </div>
+        <div>
+            <input type="date" id="specific-day">
+            <button id="day-choice">Search for any day</button>
+        </div>
+    </nav>
+    <div id="today-word">
+        <h3>WORD OF THE DAY</h3>
+        <p id="currentDate"></p>
+        <h2><span id="dayWord"></span></h2>
+        <p><span id="dayWordphonetics"></span></p>
+        <p><i id="dayWordvolume" class="fas fa-volume-up"></i></p>
+        <p><span id="dayWordmeaning"></span></p>
+        <p><span id="dayWordexample"></span></p>
+        <p><span id="dayWordantonyms"></span></p>
+        <p><span id="dayWordsynonyms"></span></p>
+        <p><span id="wordofday-img"></span></p>
+
+    </div>
+
+
+    <div id="word-container">
+        <h2 id="word-heading"></h2>
+        <div><i id="audio" class="fas fa-volume-up"></i></div>
+        <div id="pronous"></div>
+        <div id="output"></div>
+        <div id="examples"></div>
+        <div id="synonyms"></div>
+        <div id="antonyms"></div>
+        <div id="gallery"></div>
+    </div>
+
+
+</body>
+<script src="dictionary.js"></script>
+
+</html>
